@@ -1,13 +1,39 @@
-// const Footer = () => {
-//    return(
-//       <>
-//       <section>
-//          <div className="container">
-//             <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo doloribus quo aliquam praesentium. Quis exercitationem enim inventore saepe nemo nihil?</h1>
-//          </div>
-//       </section>
-//       </>
-//    )
-// };
+import Group from "../assets/Group.svg";
+import Frame39 from "../assets/Frame39.svg";
 
-// export default Footer;
+const Footer = () => {
+  return (
+    <>
+      <footer>
+        <div className="container">
+          <div className="top">
+            <div className="left">
+              <img src={Group} />
+              <span>Pojok Baca Probolinggo</span>
+              <br />
+              <br />
+              <br />
+              <img src={Frame39} className="fram" />
+            </div>
+            <div className="cent">
+              <h3>Kontak</h3>
+              <ul>
+                <li>
+                  <a href="#">Email</a>
+                </li>
+                <li>
+                  <a href="#">Alamat</a>
+                </li>
+                <li>
+                  <a href="#">No. Rekening</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
+};
+
+export default Footer;
