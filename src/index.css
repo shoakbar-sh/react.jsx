@@ -331,10 +331,10 @@ a {
 
 footer {
    width: 1518px;
-   height: 380px;
-   background-color: white;
-   padding: 100px 100px 0 100px;
+   height: 350px;
+   padding: 100px 100px 0 0px;
    margin: 0 auto;
+   margin-top: 30px;
 }
 
 .frem {
@@ -350,10 +350,11 @@ footer {
 
 .top {
    display: flex;
+   padding-left: 100px;
 }
 
 .cent {
-   margin-left: 396px;
+   margin-left: 426px;
    margin-top: 24px;
 }
 
@@ -370,11 +371,11 @@ footer {
 }
 
 .cent li {
-   margin-bottom: 16px;
+   margin-bottom: 19px;
 }
 
 .rayt {
-   margin-left: 150px;
+   margin-left: 180px;
    margin-top: 24px;
 }
 
@@ -391,15 +392,16 @@ footer {
 }
 
 .rayt li {
-   margin-bottom: 16px;
+   margin-bottom: 19px;
 }
 
 .end {
    background-color: #008F76;
-   width: 1318px;
+   width: 1518px;
    height: 60px;
    color: white;
    padding: 18px;
+   margin-top: 30px;
 }
 
 .end h1 {
