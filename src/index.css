@@ -334,61 +334,76 @@ footer {
    height: 380px;
    background-color: white;
    padding: 100px 100px 0 100px;
+   margin: 0 auto;
 }
 
-.frem{
+.frem {
    padding-top: 48px;
 }
 
-.left span{
+.left span {
    position: absolute;
    margin-top: 20px;
    font-size: 18px;
    margin-left: 20px;
 }
 
-.top{
+.top {
    display: flex;
 }
 
-.cent{
+.cent {
    margin-left: 396px;
    margin-top: 24px;
 }
 
-.cent h3{
+.cent h3 {
    font-size: 18px;
    font-weight: 500;
 }
 
-.cent ul{
+.cent ul {
    margin-top: 16px;
    font-size: 16px;
    color: #949494;
    list-style: none;
 }
 
-.cent li{
+.cent li {
    margin-bottom: 16px;
 }
 
-.rayt{
+.rayt {
    margin-left: 150px;
    margin-top: 24px;
 }
 
-.rayt h3{
+.rayt h3 {
    font-size: 18px;
    font-weight: 500;
 }
 
-.rayt ul{
+.rayt ul {
    margin-top: 16px;
    font-size: 16px;
    color: #949494;
    list-style: none;
 }
 
-.rayt li{
+.rayt li {
    margin-bottom: 16px;
+}
+
+.end {
+   background-color: #008F76;
+   width: 1318px;
+   height: 60px;
+   color: white;
+   padding: 18px;
+}
+
+.end h1 {
+   font-size: 18px;
+   font-weight: 500;
+   text-align: center;
 }

@@ -42,6 +42,10 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+
+          <div className="end">
+            <h1>Pojok Baca Probolinggo 2022</h1>
+          </div>
         </div>
       </footer>
     </>
