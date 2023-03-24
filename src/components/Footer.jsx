@@ -15,18 +15,30 @@ const Footer = () => {
               <br />
               <img src={Frame39} className="fram" />
             </div>
+
             <div className="cent">
               <h3>Kontak</h3>
               <ul>
-                <li>
-                  <a href="#">Email</a>
-                </li>
-                <li>
-                  <a href="#">Alamat</a>
-                </li>
-                <li>
-                  <a href="#">No. Rekening</a>
-                </li>
+                <li>Email</li>
+                <li>Alamat</li>
+                <li>No. Rekening</li>
+              </ul>
+            </div>
+
+            <div className="rayt">
+              <h3>Tentang Kami</h3>
+              <ul>
+                <li>Umum</li>
+              </ul>
+            </div>
+
+            <div className="rayt">
+              <h3>Galery</h3>
+              <ul>
+                <li>Kegiatan 2018</li>
+                <li>Kegiatan 2019</li>
+                <li>Kegiatan 2020</li>
+                <li>Kegiatan 2021</li>
               </ul>
             </div>
           </div>

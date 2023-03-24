@@ -8,7 +8,7 @@ const Header = () => {
           <nav>
             <img src={Group} className="rasm" />
 
-            <ul>
+            <ul className="ul">
                <li><a href="#">Beranda</a></li>
                <li><a href="#">Koleksi</a></li>
                <li><a href="#">Syarat dan Ketentuan</a></li>
